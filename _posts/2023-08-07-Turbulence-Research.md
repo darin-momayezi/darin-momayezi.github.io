@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Spin-Orbit Interaction"
 mathjax: true
 layout: post
 categories: media
