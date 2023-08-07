@@ -5,8 +5,6 @@ layout: post
 categories: media
 ---
 
-<img src="/Users/darinmomayezi/Downloads/Image1049 23-04-14 14-54-13.jpeg">
-
 
 ## MathJax
 
