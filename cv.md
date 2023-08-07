@@ -1,11 +1,10 @@
 ---
 layout: "page"
-title: "CV"
 ---
 
 # Education
 
-### Georgia Institute of Technology (Atlanta, GA)
+### Georgia Institute of Technology, Atlanta, GA
 Bachelor of Science in Physics, GPA: 3.80/4.00
 
 ### Research Experience
