@@ -5,6 +5,8 @@ layout: post
 categories: media
 ---
 
+![SOI](images/Screenshot 2023-08-07 at 10.44.51 AM.png)
+
 ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
 
 
