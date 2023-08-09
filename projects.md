@@ -1,10 +1,15 @@
----
-layout: "page"
-title: "Projects"
----
+{% for post in posts %}
+  <article>
+    {% include meta.html post=post preview=true %}
+    {{ post.excerpt }}
+    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+  </article>
+{% endfor %}
 
-{% if site.show_excerpts %}
-  {% include projects.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
+{% if paginator.total_pages > 1 %}
+  <footer>
+    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
+    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
+  </footer>
 {% endif %}
