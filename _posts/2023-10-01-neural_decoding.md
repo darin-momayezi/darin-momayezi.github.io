@@ -49,10 +49,8 @@ plt.title('Data')
 
 
     
-![png](neural_decoding_files/neural_decoding_4_1.png)
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_4_1.png" width="800" height="450" />
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_4_1.png" width="400" height="250" />
 </p>
     
 
@@ -107,8 +105,9 @@ plt.title(f'Mean Firing Rate of Neuron {neuron}')
 
 
 
-    
-![png](neural_decoding_files/neural_decoding_7_1.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_7_1.png" width="400" height="250" />
+</p>
     
 
 
@@ -134,9 +133,10 @@ for neuron in range(neurons):
 ```
 
 
-    
-![png](neural_decoding_files/neural_decoding_9_0.png)
-    
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_9_0.png" width="400" height="250" />
+</p>
 
 
 One neuron has flatlined! Not a hard worker that one. These plots show that neurons have prefered directions because they fire at a greater rate in some directions than others. Therefore, we fit the data using a Von Mises distrbution, which is a continuous probability distrbution on the circle. A prewritten program will fit the data to the Von Mises distrbituion using the $ \theta_0 $ parameter in the Von Mises equation below. $ \theta_0 $ will tell us the 'preferred' direction of each neuron and we call the fits plotted in orange 'tuning curves'. 
@@ -224,13 +224,17 @@ plt.show()
 
 
     
-![png](neural_decoding_files/neural_decoding_12_0.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_12_0.png" width="800" height="450" />
+</p>
     
 
 
 
     
-![png](neural_decoding_files/neural_decoding_12_1.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_12_1.png" width="800" height="450" />
+</p>
     
 
 
@@ -245,7 +249,9 @@ plt.show()
 
 
     
-![png](neural_decoding_files/neural_decoding_14_0.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_14_0.png" width="400" height="250" />
+</p>
     
 
 
@@ -276,7 +282,9 @@ plt.show()
 
 
     
-![png](neural_decoding_files/neural_decoding_16_0.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_16_0.png" width="400" height="250" />
+</p>
     
 
 
@@ -340,7 +348,9 @@ fig.legend()
 
 
     
-![png](neural_decoding_files/neural_decoding_19_3.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_19_3.png" width="400" height="250" />
+</p>
     
 
 
@@ -416,7 +426,9 @@ plt.show()
 
 
     
-![png](neural_decoding_files/neural_decoding_21_0.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_21_0.png" width="400" height="250" />
+</p>
     
 
 
