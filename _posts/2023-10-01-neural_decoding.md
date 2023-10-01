@@ -50,6 +50,10 @@ plt.title('Data')
 
     
 ![png](neural_decoding_files/neural_decoding_4_1.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_4_1.png" width="800" height="450" />
+</p>
     
 
 
