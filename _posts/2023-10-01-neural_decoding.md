@@ -135,12 +135,12 @@ for neuron in range(neurons):
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_9_0.png" width="400" height="250" />
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_9_0.png" width="800" height="450" />
 </p>
 
 
-One neuron has flatlined! Not a hard worker that one. These plots show that neurons have prefered directions because they fire at a greater rate in some directions than others. Therefore, we fit the data using a Von Mises distrbution, which is a continuous probability distrbution on the circle. A prewritten program will fit the data to the Von Mises distrbituion using the $ \theta_0 $ parameter in the Von Mises equation below. $ \theta_0 $ will tell us the 'preferred' direction of each neuron and we call the fits plotted in orange 'tuning curves'. 
-$$ VM = bs + e^{ \kappa \cos (2 ( \theta - \theta_0) / \theta_b)} (f_{ max} - bs) $$
+One neuron has flatlined! Not a hard worker that one. These plots show that neurons have prefered directions because they fire at a greater rate in some directions than others. Therefore, we fit the data using a Von Mises distrbution, which is a continuous probability distrbution on the circle. A prewritten program will fit the data to the Von Mises distrbituion using the $\theta_0$ parameter in the Von Mises equation below. $\theta_0$ will tell us the 'preferred' direction of each neuron and we call the fits plotted in orange 'tuning curves'. 
+$$VM = bs + e^{ \kappa \cos (2 ( \theta - \theta_0) / \theta_b)} (f_{ max} - bs)$$
 
 
 ```python
@@ -238,7 +238,7 @@ plt.show()
     
 
 
-The first set of plots shows the true data vs. the fitted data, which shows that the Von Mises distribution provides a good fit. Therefore, the $ \theta_0 $ variable does show the preferred direction. The second group of plots is polar plots that show the Von Mises fit in its circular geometry. The red line shows the preferred direction based on the $ f_{max} $ parameter and provides an intuitive interpretation of the neuron firing rate. Remember each plot is a different neuron, so we are finding the preferred direction of each neuron. We can make an even more concise graph by plotting the distribution of preferred directions on the circle. 
+The first set of plots shows the true data vs. the fitted data, which shows that the Von Mises distribution provides a good fit. Therefore, the $\theta_0$ variable does show the preferred direction. The second group of plots is polar plots that show the Von Mises fit in its circular geometry. The red line shows the preferred direction based on the $f_{\text{max}}$ parameter and provides an intuitive interpretation of the neuron firing rate. Remember each plot is a different neuron, so we are finding the preferred direction of each neuron. We can make an even more concise graph by plotting the distribution of preferred directions on the circle. 
 
 
 ```python
@@ -255,7 +255,7 @@ plt.show()
     
 
 
-Now we wrap this $ \theta $ distribution around the circle. 
+Now we wrap this $\theta$ distribution around the circle. 
 
 
 ```python
@@ -288,12 +288,12 @@ plt.show()
     
 
 
-Directions near $ 135 \degree $ and $ 115 \degree $ are clearly overrepresented, which means many more neurons are required to perform these movements. This may be due to the fact that diagonal movements require a movement of both joints in the arm, namely the elbow and shoulder. Therefore, we can explain this through the geometry of the arm, but we didn't assume that before! It came directly from the neuronal activity, however, it is a conjecture until we perform an experiment to validate this hypothesis. 
+Directions near $135 \degree$ and $115 \degree$ are clearly overrepresented, which means many more neurons are required to perform these movements. This may be due to the fact that diagonal movements require a movement of both joints in the arm, namely the elbow and shoulder. Therefore, we can explain this through the geometry of the arm, but we didn't assume that before! It came directly from the neuronal activity, however, it is only a conjecture until we perform an experiment to validate this hypothesis. 
 
 At this point we have successfully uncovered the circular geometry of this activity solely from neuronal activity by: 
 
 1. Exploring the data in a smart way (activity vs. direction, averaged over trials) and noticing a directionality
-2. Using the Von Mises distribution (motivated by step 1) to find a parameter $ \theta_0 $ (preferred direction of neuron)
+2. Using the Von Mises distribution (motivated by step 1) to find a parameter $\theta_0$ (preferred direction of neuron)
 3. Plotting useful information in the appropriate geometrical format (polar plot for the circular geometry of the Von Mises distribution) to obtain interpretible information. 
  
 ### Now, can we decode the detailed movement of the monkey's arm solely from neuronal activity?
@@ -427,12 +427,12 @@ plt.show()
 
     
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_21_0.png" width="400" height="250" />
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/neural_decoding_21_0.png" width="600" height="350" />
 </p>
     
 
 
-This ring shows us that with the neuronal data from the 143 neurons we can predict any directions in $ 360 \degree $ that the monkey will move! Therefore, we have created a CONTINUOUS REPRESENTATION. Let's take a minute to appreciate how we did this. First, we already have the PCA fit that we did previously on the discrete directions. Then, we applied the Von Mises fit to each neuron, taking into account its mean activity in each direction, to obtain the tuning function, i.e. the continous representation. And to visualize in the PCA space we projected this fitted data onto the first two principle components to obtain this ring. Using the principle components is one way, but not the best way, to decode the direction of motion from the neuronal activity.
+This ring shows us that with the neuronal data from the 143 neurons we can predict any directions in $360 \degree$ that the monkey will move! Therefore, we have created a CONTINUOUS REPRESENTATION. Let's take a minute to appreciate how we did this. First, we already have the PCA fit that we did previously on the discrete directions. Then, we applied the Von Mises fit to each neuron, taking into account its mean activity in each direction, to obtain the tuning function, i.e. the continous representation. And to visualize in the PCA space we projected this fitted data onto the first two principle components to obtain this ring. Using the principle components is one way, but not the best way, to decode the direction of motion from the neuronal activity.
 
 # Neural Network
 
