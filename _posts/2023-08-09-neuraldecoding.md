@@ -10,12 +10,6 @@ categories: media
 
 ![VMPCA](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/VMPCA.jpg)
 
----
-title:  "Neural Decoding"
-mathjax: true
-layout: post
-categories: media
----
 
 # Setup
 
@@ -452,7 +446,7 @@ plt.show()
     
 
 
-This ring shows us that with the neuronal data from the 143 neurons we can predict any directions in $360 \degree$ that the monkey will move! Therefore, we have created a CONTINUOUS REPRESENTATION. Let's take a minute to appreciate how we did this. First, we already have the PCA fit that we did previously on the discrete directions. Then, we applied the Von Mises fit to each neuron, taking into account its mean activity in each direction, to obtain the tuning function, i.e. the continous representation. And to visualize in the PCA space we projected this fitted data onto the first two principle components to obtain this ring. Using the principle components is one way, but not the best way, to decode the direction of motion from the neuronal activity.
+This ring shows us that with the neuronal data from the 143 neurons we can predict any directions in $$360 \degree$$ that the monkey will move! Therefore, we have created a CONTINUOUS REPRESENTATION. Let's take a minute to appreciate how we did this. First, we already have the PCA fit that we did previously on the discrete directions. Then, we applied the Von Mises fit to each neuron, taking into account its mean activity in each direction, to obtain the tuning function, i.e. the continous representation. And to visualize in the PCA space we projected this fitted data onto the first two principle components to obtain this ring. Using the principle components is one way, but not the best way, to decode the direction of motion from the neuronal activity.
 
 # Neural Network
 
