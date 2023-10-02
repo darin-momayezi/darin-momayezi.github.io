@@ -139,7 +139,8 @@ for neuron in range(neurons):
 </p>
 
 
-One neuron has flatlined! Not a hard worker that one. These plots show that neurons have prefered directions because they fire at a greater rate in some directions than others. Therefore, we fit the data using a Von Mises distrbution, which is a continuous probability distrbution on the circle. A prewritten program will fit the data to the Von Mises distrbituion using the \(\theta_0\) parameter in the Von Mises equation below. $\theta_0$ will tell us the 'preferred' direction of each neuron and we call the fits plotted in orange 'tuning curves'. 
+One neuron has flatlined! Not a hard worker that one. These plots show that neurons have prefered directions because they fire at a greater rate in some directions than others. Therefore, we fit the data using a Von Mises distrbution, which is a continuous probability distrbution on the circle. A prewritten program will fit the data to the Von Mises distrbituion using the $$\theta_0$$ parameter in the Von Mises equation below. $$\theta_0$$ will tell us the 'preferred' direction of each neuron and we call the fits plotted in orange 'tuning curves'. 
+
 $$VM = bs + e^{ \kappa \cos (2 ( \theta - \theta_0) / \theta_b)} (f_{ max} - bs)$$
 
 
