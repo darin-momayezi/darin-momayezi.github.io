@@ -246,7 +246,7 @@ plt.show()
     
 
 
-The first set of plots shows the true data vs. the fitted data, which shows that the Von Mises distribution provides a good fit. Therefore, the $\theta_0$ variable does show the preferred direction. The second group of plots is polar plots that show the Von Mises fit in its circular geometry. The red line shows the preferred direction based on the $f_{\text{max}}$ parameter and provides an intuitive interpretation of the neuron firing rate. Remember each plot is a different neuron, so we are finding the preferred direction of each neuron. We can make an even more concise graph by plotting the distribution of preferred directions on the circle. 
+The first set of plots shows the true data vs. the fitted data, which shows that the Von Mises distribution provides a good fit. Therefore, the $$\theta_0$$ variable does show the preferred direction. The second group of plots is polar plots that show the Von Mises fit in its circular geometry. The red line shows the preferred direction based on the $$f_{\text{max}}$$ parameter and provides an intuitive interpretation of the neuron firing rate. Remember each plot is a different neuron, so we are finding the preferred direction of each neuron. We can make an even more concise graph by plotting the distribution of preferred directions on the circle. 
 
 
 ```python
@@ -263,7 +263,7 @@ plt.show()
     
 
 
-Now we wrap this $\theta$ distribution around the circle. 
+Now we wrap this $$\theta$$ distribution around the circle. 
 
 
 ```python
@@ -296,7 +296,7 @@ plt.show()
     
 
 
-Directions near $135 \degree$ and $115 \degree$ are clearly overrepresented, which means many more neurons are required to perform these movements. This may be due to the fact that diagonal movements require a movement of both joints in the arm, namely the elbow and shoulder. Therefore, we can explain this through the geometry of the arm, but we didn't assume that before! It came directly from the neuronal activity, however, it is only a conjecture until we perform an experiment to validate this hypothesis. 
+Directions near $$135 \degree$$ and $$115 \degree$$ are clearly overrepresented, which means many more neurons are required to perform these movements. This may be due to the fact that diagonal movements require a movement of both joints in the arm, namely the elbow and shoulder. Therefore, we can explain this through the geometry of the arm, but we didn't assume that before! It came directly from the neuronal activity, however, it is only a conjecture until we perform an experiment to validate this hypothesis. 
 
 At this point we have successfully uncovered the circular geometry of this activity solely from neuronal activity by: 
 
@@ -364,7 +364,7 @@ fig.legend()
 
 We are correct in our assumption that PCA will not represent the data very well. The first two components explain 44% of the variance in the data, which isn't bad, but playing around with the code shows that we need about 40 components to explain 90% or more of the data. PCA is still useful, however. One thing to notice is that information is fairly well spread over the neurons precisely because we need 40+ components to explain 90% of the data. Why is that? Well, as a phycisist who doesn't know about neuroscience I asked the question, 'how can we possibly insert electrodes in the brain and happen upon THE 143 neurons that produce the monkey's movement?' The answer is that information is actually spread out pretty well over parts of the brain. This means that the activity of most neurons in the motor cortex are somehow correlated to each movement we do. Perhaps this redundancy is an evolutionary advantage since, while less efficient, redundancy provides more security is some wiring goes awry. Anyways, this is something interesting to notice. Another reason PCA is useful is because now we can visualize the data in a two-dimensional space. Since we can't visually percieve more than three dimensions this is very useful. 
 
-### Remember, we have a continuous represenation of the data with $ \theta_0 $.
+### Remember, we have a continuous represenation of the data with $$\theta_0$$.
 
 Let's recall that the original task is performed with discrete directions 1-8 around the circle, but with the Von Mises fit we can create a continuous representation of the data through interpolation. Therefore, with the same 143 neurons we can predict any direction the monkey could move if it were allowed to move in any direction around the circle. 
 
