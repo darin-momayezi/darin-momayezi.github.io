@@ -1,7 +1,7 @@
 ---
 title:  "Neural Decoding"
 mathjax: true
-layout: post
+layout: single
 categories: media
 ---
 
