@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![zeeman1](https://github.com/darin-momayezi/darin-momayezi.github.io/blob/e6498ac2c7b87bd1d5f136860882de75c394cdff/images/zeeman1.jpg)
+![zeeman1](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman1.png)
 ![zeeman2](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman2.png)
 ![zeeman3](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman3.png)
 ![zeeman4](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman4.png)
