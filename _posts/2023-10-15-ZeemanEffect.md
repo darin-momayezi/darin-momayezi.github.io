@@ -1,12 +1,18 @@
 ---
-title:  "Neural Decoding"
+title:  "Zeeman Effect"
 mathjax: true
 layout: post
 categories: media
 ---
 
-![zeeman](https://github.com/darin-momayezi/darin-momayezi.github.io/blob/e6498ac2c7b87bd1d5f136860882de75c394cdff/images/zeeman1.jpg)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman1.png" width="800" height="1000" />
-</p>
+![zeeman1](https://github.com/darin-momayezi/darin-momayezi.github.io/blob/e6498ac2c7b87bd1d5f136860882de75c394cdff/images/zeeman1.jpg)
+![zeeman2](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman2.png)
+![zeeman3](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman3.png)
+![zeeman4](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman4.png)
+![zeeman5](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman5.png)
+![zeeman6](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman6.png)
+![zeeman7](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman7.png)
+![zeeman8](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman8.png)
+![zeeman9](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman9.png)
+![zeeman10](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman10.png)
+![zeeman11](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman11.png)
