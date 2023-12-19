@@ -5,7 +5,9 @@ layout: post
 categories: media
 ---
 
-![zeemanabstract](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/run1_0A.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/run1_0A.png" width="600" height="450" />
+</p>
 
 
 <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/zeeman1.png" />
