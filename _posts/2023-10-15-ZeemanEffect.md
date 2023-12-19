@@ -6,7 +6,7 @@ categories: media
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/run1_0A.png" width="600" height="450" />
+  <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/run1_0A.png" width="800" height="550" />
 </p>
 
 
