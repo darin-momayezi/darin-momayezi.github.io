@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![abstract](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/physics_hackathon_Fall2023_abstract.jpeg)
+![abstract](https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/energy_cycle.jpeg)
 
 
 <img src="https://raw.githubusercontent.com/darin-momayezi/darin-momayezi.github.io/master/images/physics_hackathon_Fall2023_1.jpeg" />
