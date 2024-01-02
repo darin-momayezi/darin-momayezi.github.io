@@ -6,7 +6,7 @@ title: ""
 # Education
 
 ### Georgia Institute of Technology, Atlanta, GA
-Bachelor of Science in Physics, GPA: 3.87/4.00
+Bachelor of Science in Physics, GPA: 3.90/4.00 (as of Spring 2024)
 
 ### Research Experience
 
@@ -19,7 +19,7 @@ Bachelor of Science in Physics, GPA: 3.87/4.00
 
 **Member**, *Dr. Michael Schatz's Nonlinear Dynamics Lab*, Center for Nonlinear Science, Georgia Institute of Technology, Atlanta, GA (January 2023-Present)
 - Experimental and thoeretical study of single particle-fluid interactions in turbulent flow.
-- Use of model discovery for deriving equations of motion of particles in flows.
+- Use of model discovery algorithm SPIDER (Sparse Physics-Informed Derivation of Empirical Relations) for deriving equations of motion of particles in flows.
 - Skills: cameras, particle tracking, particle image velocimetry (PIV), model discovery.
 
 
