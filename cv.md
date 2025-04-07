@@ -20,7 +20,7 @@ Bachelor of Science in Physics, 2024
 - Study of informational quantities such as mutual information between cells in evolving T-cell populations to understand phenomena such as cell differentation/the epigenetic landscape (current).
 - Application of machine learning (variational autoencoders) and dynamic OT to convert the study of T-cell evolution using static OT to a spatially and temporally continuous setting (current). 
 
-**Member**, *Dr. Roman Grigoriev's Nonlinear Dynamics Lab*, Center for Nonlinear Science, Georgia Institute of Technology, Atlanta, GA (January 2022-Present)
+**Member**, *Dr. Roman Grigoriev's Nonlinear Dynamics Lab*, Center for Nonlinear Science, Georgia Institute of Technology, Atlanta, GA (January 2022-May 2024)
 
 - Application of Machine Learning (Autoencoders) to problems in Chaos and Nonlinear Dynamics: dimensionality reduction, time-series prediction, and model discovery.
 - Investigation of small-scale/fine structure of Navier-Stokes using simulations on mesh grids and Autoencoders.
