@@ -43,9 +43,9 @@ GA (March 2021-December 2021)
 ### Work Experience
 
 **Teaching Assistant**, *TA*, Department of Physics, University of Washington, Seattle, WA
--Fall 2024: Introductory Physics Electromagnetism (PHYS 115, PHYS 118, PHYS 122)
--Winter 2025: Introductory Physics Waves, Optics, Atoms and Nuclei (PHYS 116, PHYS 119, PHYS 123)
--Spring 2025: Neural Network Methods for Signals in Engineering and Physical Sciences (PHYS 417), Introductory Physics Mechanics (PHYS 117, PHYS 121)
+- Fall 2024: Introductory Physics Electromagnetism (PHYS 115, PHYS 118, PHYS 122).
+- Winter 2025: Introductory Physics Waves, Optics, Atoms and Nuclei (PHYS 116, PHYS 119, PHYS 123).
+- Spring 2025: Neural Network Methods for Signals in Engineering and Physical Sciences (PHYS 417), Introductory Physics Mechanics (PHYS 117, PHYS 121).
 
 **UGA Peer Learning and Teaching Others**, *Tutor*, Division of Academic Enhancement (DAE), University of Georgia, Athens, GA (Fall 2021)
 - Tutor of CHEM 1211, PHYS 1251, PHYS 1212, MATH 2250, MATH 2260, Hours: 5 hours per week
