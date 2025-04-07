@@ -5,10 +5,20 @@ title: ""
 
 # Education
 
+### University of Washington, Seattle, WA
+
+Doctor of Philosophy (PhD) in Physics, 2024 - current
+
 ### Georgia Institute of Technology, Atlanta, GA
-Bachelor of Science in Physics, GPA: 3.90/4.00 (as of Spring 2024)
+Bachelor of Science in Physics, 2024
 
 ### Research Experience
+
+**Member**, *Dr. Armita Nourmohammad's Statistical Physics of Evolving Systems Lab*, Department of Physics, University of Washington, Seattle, WA
+(January 2025-Present)
+- Application of Optimal Transport (OT) to the evolution of T-cells in diverse antigenic environments. This project aims to study immune responses to bacteria and viruses at the cellular level using surface protein expression data.
+- Study of informational quantities such as mutual information between cells in evolving T-cell populations to understand phenomena such as cell differentation/the epigenetic landscape (current).
+- Application of machine learning (variational autoencoders) and dynamic OT to convert the study of T-cell evolution using static OT to a spatially and temporally continuous setting (current). 
 
 **Member**, *Dr. Roman Grigoriev's Nonlinear Dynamics Lab*, Center for Nonlinear Science, Georgia Institute of Technology, Atlanta, GA (January 2022-Present)
 
@@ -32,9 +42,15 @@ GA (March 2021-December 2021)
 
 ### Work Experience
 
+**Teaching Assistant**, *TA*, Department of Physics, University of Washington, Seattle, WA
+-Fall 2024: Introductory Physics Electromagnetism (PHYS 115, PHYS 118, PHYS 122)
+-Winter 2025: Introductory Physics Waves, Optics, Atoms and Nuclei (PHYS 116, PHYS 119, PHYS 123)
+-Spring 2025: Neural Network Methods for Signals in Engineering and Physical Sciences (PHYS 417), Introductory Physics Mechanics (PHYS 117, PHYS 121)
+
 **UGA Peer Learning and Teaching Others**, *Tutor*, Division of Academic Enhancement (DAE), University of Georgia, Athens, GA (Fall 2021)
 - Tutor of CHEM 1211, PHYS 1251, PHYS 1212, MATH 2250, MATH 2260, Hours: 5 hours per week
 
 ### Languages
-- English (native)
-- French (fluent)
+- English (native), French (fluent)
+- Spanish (intermediate), German (intermediate)
+- Persian (heritage speaker)
