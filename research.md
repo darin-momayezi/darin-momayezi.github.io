@@ -3,6 +3,6 @@ layout: "page"
 title: "Research"
 ---
 
-I am an undergraduate physics student at Georgia Tech doing research in turbulence modeling, machine learning and fluid mechanics.
+I am a graduate student in the Department of Physics at the University of Washington in Seattle. I am generally interested in dynamics systems and biophysics as well as fluid dynamics and turbulence. Currently, I am working on applying Optimal Transport (OT) and machine learning (ML) methods to studying the immune system given data about surface protein epxression of T-cells in the presence of specific antigens. More specifically I am working on extending our existing algorithm using static OT to be spatially and temporally continuous using dynamic OT and variational autoencoders. My talk summarizing the application of static OT to studying T-cells and the vision for converting to a continuous space is summarized the slides linked here. 
 
 ![image](images/Image1049 23-04-14 14-54-13.jpeg)
